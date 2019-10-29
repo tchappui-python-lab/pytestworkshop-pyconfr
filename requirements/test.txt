@@ -1,0 +1,5 @@
+pytest==5.2.1
+pytest-django==3.6.0
+lovely-pytest-docker==0.1.0
+factory-boy==2.11.1
+coverage==4.5.2
