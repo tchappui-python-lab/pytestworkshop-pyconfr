@@ -9,7 +9,7 @@ To do it, clone repository from https://github.com/mahomahomaho/pytestworkshop-p
 The easy way
 
 * download vagrant (if you don't have it yet)
-* ```cd vagrant```
+* ```cd <thisrepo>/vagrant```
 * ```vagrant up```
 * ```vagrant ssh```
 
