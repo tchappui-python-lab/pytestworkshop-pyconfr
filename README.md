@@ -21,7 +21,7 @@ The perfect way :)
 * ```pip install -r requirements/base.txt```
 * ```pip install -r requirements/dev.txt```
 * ```pip install -r requirements/test.txt```
-* install docker
+* install docker and docker-compose
 
 
 # software itself
