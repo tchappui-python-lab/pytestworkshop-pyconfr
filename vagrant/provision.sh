@@ -31,3 +31,6 @@ pip install -r requirements/dev.txt
 pip install -r requirements/test.txt
 pip install tox
 pip install -e .
+
+cd tests
+sudo docker-compose pull

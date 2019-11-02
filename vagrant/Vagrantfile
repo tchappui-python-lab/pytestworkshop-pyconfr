@@ -3,7 +3,7 @@
 
 Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |v|
-    v.name = "pycon"
+    v.name = "pycon_pytestint"
     v.memory = 1536
     v.cpus = 2
   end
