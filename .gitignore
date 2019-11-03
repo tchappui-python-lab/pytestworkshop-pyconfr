@@ -113,3 +113,4 @@ venv.bak/
 __pycache__
 *.sqlite
 .orig
+.vscode/
