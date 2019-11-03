@@ -1,9 +1,20 @@
 import ftplib
 import os
 from pathlib import Path
+import tempfile
 
 from django.conf import settings
 import pytest
+
+
+@pytest.fixture
+def localfile():
+    with tempfile.NamedTemporaryFile() as f:
+        f.write(b"some foo bar content")
+        f.seek(0)
+        # before test
+        yield f
+        # after test
 
 
 @pytest.fixture
