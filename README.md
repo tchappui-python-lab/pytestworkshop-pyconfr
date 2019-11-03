@@ -27,3 +27,6 @@ The perfect way :)
 # software itself
 
 Software itself can be run by ```python manage.py runserver```
+
+# Launching the tests
+Launch the tests using the following command `pytest -vvv --keepalive`
